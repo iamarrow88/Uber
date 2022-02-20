@@ -70,6 +70,10 @@ body {
   text-transform: uppercase;
 }
 
+.common-btn:hover {
+  cursor: pointer;
+}
+
 .section-title {
   width: 113px;
   height: 24px;
@@ -364,7 +368,7 @@ body {
 }
 
 .opportunities__container .opportunities__wrapper .opportunites__item .item-title .opportunites__item-title {
-  font-size: 24px;
+  pxfont-size: 24px;
   line-height: 1.3;
   color: #FFFFFF;
   text-transform: uppercase;
@@ -381,22 +385,6 @@ body {
   padding: 57px 190px 137px 191px;
 }
 
-.car .car__container .car-title {
-  background-color: #FFFFFF;
-  color: #000000;
-  margin-bottom: 37px;
-}
-
-.car .car__container .opportunities-header {
-  color: #FFFFFF;
-  margin-bottom: 1px;
-}
-
-.car .car__container .car__subheader {
-  color: #FFFFFF;
-  margin-bottom: 54px;
-}
-
 .car .car__container .car__img {
   display: block;
 }
@@ -405,6 +393,280 @@ body {
   font-weight: 300;
   font-size: 17px;
   line-height: 1.41;
+  text-align: center;
+}
+
+.car-title {
+  background-color: #FFFFFF;
+  color: #000000;
+  margin-bottom: 37px;
+}
+
+.car-header {
+  color: #FFFFFF;
+  margin-bottom: 1px;
+}
+
+.car__subheader {
+  color: #FFFFFF;
+  margin-bottom: 54px;
+}
+
+.requirements {
+  min-height: 917px;
+}
+
+.requirements .requirements__container {
+  padding: 0 5px;
+}
+
+.requirements .requirements__container .requirements-title {
+  margin-bottom: 28px;
+}
+
+.requirements .requirements__container .requirements-header {
+  margin-bottom: 33px;
+}
+
+.requirements .requirements__container .lists-wrapper .conditions__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 58px;
+  margin-bottom: 60px;
+}
+
+.your-auto, .reqs {
+  max-width: 550px;
+}
+
+.conditions__header {
+  font-size: 22px;
+  line-height: 24px;
+  color: #1CA8C3;
+  margin-bottom: 20px;
+}
+
+.conditions__list {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  text-indent: 50px;
+  color: #222222;
+  margin-bottom: 25px;
+}
+
+.conditions__list .conditions__item {
+  position: relative;
+}
+
+.conditions__list .conditions__item::before {
+  content: "";
+  background-image: url("./../assets/icons/check_blue.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 21px;
+  height: 20px;
+}
+
+.some-text {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  color: #1CA8C3;
+}
+
+.our-auto, .docs {
+  max-width: 508px;
+}
+
+.our-auto .our-auto__header, .docs .our-auto__header {
+  font-size: 22px;
+  line-height: 24px;
+  color: #1CA8C3;
+}
+
+.requirement__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.requirement__wrap .requirement__lists .requirement__header {
+  font-size: 22px;
+  line-height: 24px;
+  color: #ff5656;
+  margin-bottom: 26px;
+}
+
+.requirement__wrap .requirement__lists .requirement__list .requirement__item {
+  position: relative;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  text-indent: 50px;
+  color: #222222;
+}
+
+.requirement__wrap .requirement__lists .requirement__list .requirement__item::before {
+  content: "";
+  background-image: url("./../assets/icons/check_red.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 21px;
+  height: 20px;
+}
+
+.whole-world {
+  height: 717px;
+  background-color: #080816;
+}
+
+.whole-world .whole-world__container {
+  max-width: 1440px;
+  height: 100%;
+  padding: 48px 0 22px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: url("./../assets/img/world_bg.jpg") center center/cover no-repeat;
+}
+
+.whole-world .whole-world__container .ww__wrapper .whole-world-title {
+  margin-bottom: 26px;
+}
+
+.whole-world .whole-world__container .ww__wrapper .whole-world-header {
+  margin-bottom: 2px;
+}
+
+.whole-world .whole-world__container .whole-world__link {
+  font-size: 15px;
+  line-height: 68px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #1FBAD6;
+}
+
+.footer {
+  min-height: 155px;
+}
+
+.footer .footer__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 12px 25px 37px 25px;
+  position: relative;
+}
+
+.socials, .apps__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 50px;
+}
+
+.socials__icon {
+  width: 35px;
+  height: 35px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+.socials__icon use {
+  width: 100%;
+  height: 100%;
+  fill: #FFFFFF;
+}
+
+.site-map {
+  position: relative;
+}
+
+.site-map::before {
+  content: '';
+  width: 301px;
+  height: 7px;
+  position: absolute;
+  background-color: #1FBAD6;
+  left: calc( 50% - 150px);
+}
+
+.first-line {
+  padding-top: 55px;
+  margin-bottom: 14px;
+}
+
+.first-line__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 390px;
+  gap: 45px;
+}
+
+.first-line__list .first-line__item a {
+  font-weight: 300;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #070716;
+}
+
+.second-line {
+  margin-bottom: 14px;
+}
+
+.second-line__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.second-line__list .second-line__item a {
+  font-weight: 300;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+.lang {
+  font-size: 11px;
+  line-height: 11px;
+  text-transform: uppercase;
+  color: #1FBAD6;
+  margin: 0 auto;
   text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

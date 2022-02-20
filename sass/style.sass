@@ -26,6 +26,8 @@ body
    border-radius: 4px
    color: $color-light
    text-transform: uppercase
+   &:hover
+      cursor: pointer
 
 .section-title 
    width: 113px
@@ -218,7 +220,7 @@ body
             justify-content: space-between
             align-items: center
             .opportunites__item-title 
-               font-size: 24px
+               pxfont-size: 24px
                line-height: 1.3
                color: $color-light
                text-transform: uppercase
@@ -229,16 +231,6 @@ body
    background-image: linear-gradient(top, $color-dark, $color-dark 55%, $color-light 55%, $color-light 100%)
    .car__container 
       padding: 57px 190px 137px 191px
-      .car-title 
-         background-color: $color-light
-         color: $color-dark
-         margin-bottom: 37px
-      .opportunities-header 
-         color: $color-light
-         margin-bottom: 1px
-      .car__subheader 
-         color: $color-light
-         margin-bottom: 54px
       .car__img 
          display: block
       .car__descr 
@@ -246,3 +238,204 @@ body
          font-size: 17px
          line-height: 1.41
          text-align: center
+.car-title 
+   background-color: $color-light
+   color: $color-dark
+   margin-bottom: 37px
+.car-header 
+   color: $color-light
+   margin-bottom: 1px
+.car__subheader 
+   color: $color-light
+   margin-bottom: 54px
+.requirements 
+   min-height: 917px
+   .requirements__container 
+      padding: 0 5px
+      .requirements-title
+         margin-bottom: 28px
+      .requirements-header 
+         margin-bottom: 33px
+      .lists-wrapper 
+         .conditions__wrap
+            display: flex
+            flex-wrap: wrap
+            gap: 58px
+            margin-bottom: 60px
+.your-auto, .reqs
+   max-width: 550px
+.conditions__header
+   font-size: 22px
+   line-height: 24px
+   color: #1CA8C3
+   margin-bottom: 20px
+.conditions__list
+   font-weight: 300
+   font-size: 17px
+   line-height: 24px
+   text-indent: 50px
+   color: #222222
+   margin-bottom: 25px
+   .conditions__item
+      position: relative
+      &::before
+         content: ""
+         background-image: url('./../assets/icons/check_blue.png')
+         position: absolute
+         top: 0
+         left: 0
+         width: 21px
+         height: 20px
+.some-text
+   font-weight: 300
+   font-size: 17px
+   line-height: 24px
+   color: #1CA8C3
+.our-auto, .docs 
+   max-width: 508px
+   .our-auto__header 
+      font-size: 22px
+      line-height: 24px
+      color: #1CA8C3
+
+   .our-auto__list 
+
+      .our-auto__item 
+
+.requirement__wrap 
+   display: flex
+   flex-wrap: wrap
+   .requirement__lists
+
+      .requirement__header 
+         font-size: 22px
+         line-height: 24px
+         color: #ff5656
+         margin-bottom: 26px
+      .requirement__list 
+         .requirement__item  
+            position: relative
+            font-weight: 300
+            font-size: 17px
+            line-height: 24px
+            text-indent: 50px
+            color: #222222
+            &::before
+               content: ""
+               background-image: url('./../assets/icons/check_red.png')
+               position: absolute
+               top: 0
+               left: 0
+               width: 21px
+               height: 20px
+.whole-world 
+   height: 717px
+   background-color: #080816
+   .whole-world__container 
+      max-width: 1440px
+      height: 100%
+      padding: 48px 0 22px 0
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      background: url('./../assets/img/world_bg.jpg') center center/cover no-repeat
+      .ww__wrapper
+         .whole-world-title 
+            margin-bottom: 26px
+         .whole-world-header 
+            margin-bottom: 2px
+         .whole-world__subheader 
+
+      .whole-world__link 
+         font-size: 15px
+         line-height: 68px
+         text-transform: uppercase
+         text-align: center
+         color: #1FBAD6
+.footer 
+   min-height: 155px
+   .footer__wrapper
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+      padding: 12px 25px 37px 25px
+      position: relative
+
+
+.socials, .apps__list 
+   display: flex
+   flex-wrap: wrap
+   gap: 6px
+   margin-top: 50px
+.socials__icon 
+   width: 35px
+   height: 35px
+   background-color: $color-dark
+   border-radius: 50%
+   use
+      width: 100%
+      height: 100%
+      fill: $color-light
+
+.site-map 
+   position: relative
+   &::before
+      content: ''
+      width: 301px
+      height: 7px
+      position: absolute
+      background-color: #1FBAD6
+      left: calc( 50% - 150px )
+   
+
+.first-line
+   padding-top: 55px 
+   margin-bottom: 14px
+
+.first-line__list 
+   display: flex
+   flex-wrap: wrap
+   justify-content: space-between
+   max-width: 390px
+   gap: 45px
+   .first-line__item 
+      a
+         font-weight: 300
+         font-size: 15px
+         text-transform: uppercase
+         color: #070716
+
+.second-line 
+   margin-bottom: 14px
+
+.second-line__list 
+   display: flex
+   flex-wrap: wrap
+   justify-content: space-between
+   .second-line__item 
+      a
+         font-weight: 300
+         font-size: 11px
+         text-transform: uppercase
+         color: #999999
+
+.second-line__link 
+
+.lang 
+   font-size: 11px
+   line-height: 11px
+   text-transform: uppercase
+   color: #1FBAD6
+   margin: 0 auto
+   text-align: center
+
+.apps 
+
+
+.apps__list 
+
+.apps__item 
+
+.apps__link 
+
+.apps__img 
